@@ -3,6 +3,7 @@ import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 plugins {
     kotlin("jvm") version "2.1.10"
     id("com.github.johnrengelman.shadow") version "8.1.1"
+    kotlin("plugin.serialization") version "1.9.0"
 }
 
 group = "me.centralhardware.telegram"
@@ -16,7 +17,11 @@ repositories {
 dependencies {
     implementation("dev.inmo:tgbotapi:23.1.2")
     implementation("com.github.centralhardware:telegram-bot-commons:b2dccc0a2b")
-//    implementation("com.github.centralhardware:ktgbotapi-restrict-access-middleware:b0e1f48293")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
+    implementation("io.ktor:ktor-client-core:2.2.4")
+    implementation("io.ktor:ktor-client-cio:2.2.4")
+    implementation("io.ktor:ktor-client-serialization:2.2.4")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
 }
 
 tasks.test {
