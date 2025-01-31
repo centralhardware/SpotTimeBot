@@ -19,7 +19,7 @@ dependencies {
     implementation("com.github.centralhardware:telegram-bot-commons:b2dccc0a2b")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
     implementation("io.ktor:ktor-client-core:3.0.3")
-    implementation("io.ktor:ktor-client-cio:2.2.4")
+    implementation("io.ktor:ktor-client-cio:3.0.3")
     implementation("io.ktor:ktor-client-serialization:3.0.3")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
 }
