@@ -18,7 +18,7 @@ dependencies {
     implementation("dev.inmo:tgbotapi:23.1.2")
     implementation("com.github.centralhardware:telegram-bot-commons:b2dccc0a2b")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0")
-    implementation("io.ktor:ktor-client-core:3.0.3")
+    implementation("io.ktor:ktor-client-core:3.1.0")
     implementation("io.ktor:ktor-client-cio:3.1.0")
     implementation("io.ktor:ktor-client-serialization:3.0.3")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0")
